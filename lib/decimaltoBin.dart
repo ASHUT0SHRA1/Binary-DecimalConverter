@@ -23,7 +23,8 @@ class _DecToBinState extends State<DecToBin> {
     ),
       body: Padding(
     padding: const EdgeInsets.all(16.0),
-    child: Column(
+    child: new SingleChildScrollView(
+    child: new Column(
     mainAxisAlignment: MainAxisAlignment.center,
     children: [
     TextField(
@@ -71,6 +72,7 @@ class _DecToBinState extends State<DecToBin> {
 
     ),
     ),
+      ),
     );
   }
 }

@@ -22,8 +22,9 @@ class _BinToDecState extends State<BinToDec> {
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
+    child: new SingleChildScrollView(
+    child: new Column(
+          mainAxisAlignment: MainAxisAlignment.start,
           children: [
             TextField(
               controller: BinController,
@@ -76,6 +77,7 @@ class _BinToDecState extends State<BinToDec> {
             )
           ],
         ),
+      ),
       ),
     );
   }
