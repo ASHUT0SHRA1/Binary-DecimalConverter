@@ -21,7 +21,3 @@ Thank You
 
 https://user-images.githubusercontent.com/89987124/236952521-b8cdee04-84a7-496c-8322-dee88c6f6545.mp4
 
-![photo_6255861295781884757_y](https://user-images.githubusercontent.com/89987124/236952647-c7ffe38e-214e-4557-9923-40a0bcb15ca3.jpg)
-![photo_6255861295781884759_y (1)](https://user-images.githubusercontent.com/89987124/236952652-4f676072-da02-42b8-969b-8155dcbcf5ea.jpg)
-![photo_6255861295781884758_y](https://user-images.githubusercontent.com/89987124/236952654-9dade33f-ce34-414e-b8e3-41cd251f4c7a.jpg)
-
