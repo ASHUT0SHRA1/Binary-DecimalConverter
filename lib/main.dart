@@ -70,6 +70,7 @@ class _SplashScreenState extends State<SplashScreen> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Text('Life is all about 0&1' ,style: TextStyle(fontSize: 34,color: Colors.cyanAccent),),
+                SizedBox(height: 30,),
                 SimpleAnimationProgressBar(
                   height: 30,
                   width: 300,
