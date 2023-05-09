@@ -19,5 +19,10 @@ it teaches how to convert binary to decimal and decimal to binary further update
 publish soon 
 Thank You
 
-https://user-images.githubusercontent.com/89987124/236952521-b8cdee04-84a7-496c-8322-dee88c6f6545.mp4
+The background color is `#ffffff` for light mode and `#000000` for dark mode.
+
+
+https://github.com/ASHUT0SHRA1/Binary-DecimalConverter/assets/89987124/364e258f-9ca1-42d0-84e4-92386411ec75
+
+
 
