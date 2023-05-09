@@ -36,6 +36,9 @@ class _BinToDecState extends State<BinToDec> {
               ),
               keyboardType: TextInputType.number,
             ),
+            SizedBox(
+              height : 30
+            ),
             MyButton(iconData: Icons.numbers_rounded, buttonText: 'Convert',
               onTap: (){
                 var bin = BinController.text.toString();

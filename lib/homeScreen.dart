@@ -16,24 +16,29 @@ class HomeScreen extends StatelessWidget {
           fontSize: 25
         ),)),
       ),
-      body:Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
+      body:Container(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.start,
+          children: [
+            Container(
+              height: 230,
+            ),
 
-          MyButton(iconData: Icons.numbers,
-              buttonText: 'Binary To Decimal',
-              onTap: (){
-                Navigator.push(context, MaterialPageRoute(builder: (context)=> BinToDec()));
-              },),
-          SizedBox(height: 30,),
-          MyButton(iconData: Icons.numbers_rounded,
-              buttonText:' Decimal To Binary',
-          onTap: (){
-            Navigator.push(context, MaterialPageRoute(builder: (context)=> DecToBin()));
+            MyButton(iconData: Icons.numbers,
+                buttonText: 'Binary To Decimal',
+                onTap: (){
+                  Navigator.push(context, MaterialPageRoute(builder: (context)=> BinToDec()));
+                },),
+            SizedBox(height: 30,),
+            MyButton(iconData: Icons.numbers_rounded,
+                buttonText:' Decimal To Binary',
+            onTap: (){
+              Navigator.push(context, MaterialPageRoute(builder: (context)=> DecToBin()));
 
-          },)
+            },)
 
-        ],
+          ],
+        ),
       ) ,
     );
   }

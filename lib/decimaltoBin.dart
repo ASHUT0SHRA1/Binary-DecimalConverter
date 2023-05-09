@@ -37,6 +37,9 @@ class _DecToBinState extends State<DecToBin> {
     ),
     keyboardType: TextInputType.number,
     ),
+    SizedBox(
+      height: 30,
+    ),
     MyButton(iconData: Icons.numbers_rounded, buttonText: 'Convert',
     onTap: (){
     var bin = DecController.text.toString();

@@ -76,13 +76,13 @@ class _SplashScreenState extends State<SplashScreen> {
                   width: 300,
                   backgroundColor: Colors.grey.shade800,
                   foregrondColor: Colors.purple,
-                  ratio: 0.5,
+                  ratio: 1,
                   direction: Axis.horizontal,
-                  curve: Curves.fastLinearToSlowEaseIn,
-                  duration: const Duration(seconds: 3),
+                  curve: Curves.easeInOutCubic,
+                  duration: const Duration(seconds: 4),
                   borderRadius: BorderRadius.circular(10),
                   gradientColor: const LinearGradient(
-                      colors: [Colors.pink, Colors.purple]),
+                      colors: [Colors.orange, Colors.white, Colors.green]),
                 )
               ],
             ),
